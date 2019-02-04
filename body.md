@@ -1,7 +1,7 @@
 ``` html
 <div id="desktop">
-  <div id="page-1" class="page">
-    <div id="frame"></div>
+  <div class="page">
+    <div class="frame"></div>
     <div class="stackable grid">
       <div class="row">
         <div class="three wide center aligned column">
