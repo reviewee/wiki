@@ -3,7 +3,6 @@ It all starts with the `#pages` block that is positioned in the center of the sc
 ``` html
 <div id="pages">
   <div class="page">
-    <div class="frame"></div>
     <div class="stackable grid">
       <div class="row">
         <div class="three wide center aligned column">
