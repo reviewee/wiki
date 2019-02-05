@@ -1,5 +1,5 @@
 ``` html
-<div id="desktop">
+<div id="pages">
   <div class="page">
     <div class="frame"></div>
     <div class="stackable grid">
