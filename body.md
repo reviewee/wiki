@@ -1,3 +1,5 @@
+It all starts with the `#pages` block that is positioned in the center of the screen so that left, right, and top margins are equal. It is the main container and it may have one or many `.page` blocks. Page may have a `.frame`, `.grid` may define a layout of the page. Grid was borrowed from the excellent [Semantic UI](https://semantic-ui.com) framework.
+
 ``` html
 <div id="pages">
   <div class="page">
