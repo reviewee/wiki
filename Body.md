@@ -52,4 +52,14 @@ Content can be structured using the `.grid`, which is based on the [16 column gr
 </div>
 ```
 
+#### Avatar
+
+Avatar is a SVG image loaded into an [`<object>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object) tag. If SVG specified in `data` attribute is unavailable for some reason, then `<object>` will render its content, which is actually nothing in this particular case (screen readers will read the `aria-label`, though).
+
+``` html
+<div class="avatar-wrapper">
+  <object class="avatar" data="./assets/images/avatar.svg" role="img" aria-label="My profile picture"></object>
+</div>
+```
+
 ## Scripts
