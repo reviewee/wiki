@@ -14,7 +14,7 @@ It all starts with the `#pages` block that is positioned in the center of the sc
 
 Content can be structured using the `.grid`, which is based on the [16 column grid implementation](https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/components/grid.css) from the excellent [Semantic UI](https://semantic-ui.com) framework. **Grid** consists of `.row`s and `.column`s, as you'd expect. **Rows** are groups of columns which are aligned horizontally. Rows can either be _explicit_, marked with an additional `.row` element, or _implicit_, automatically occurring when no more space is left in a previous row. **Columns** divide horizontal space into indivisible units. All columns in a grid must specify their width as proportion of the total available row width, e.g. `.four.wide`, `.eleven.wide`, etc.
 
-`.stackable` grids will stack their columns on top of each other on mobile devices. `.mobile.only` grids, rows, or columns would be visible only on mobile devices. `.center.aligned` grids, rows, or columns will attempt to center their content. There're no `.left.aligned` or `.right.aligned` classes, because everything is aligned to the left by default, and aligning to the right is almost never a good idea. Grids can be nested.
+`.stackable` grids will stack their columns on top of each other on mobile devices. `.divider` is useful to visually separate stacked columns. `.mobile.only` grids, rows, or columns would be visible only on mobile devices. `.center.aligned` grids, rows, or columns will attempt to center their content. There're no `.left.aligned` or `.right.aligned` classes, because everything is aligned to the left by default, and aligning to the right is almost never a good idea.  Grids can be nested.
 
 ``` html
 <div class="stackable grid">
