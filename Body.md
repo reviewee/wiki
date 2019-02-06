@@ -1,4 +1,4 @@
-### Pages
+## Pages
 
 It all starts with the `#pages` block that is positioned in the center of the screen so that left, right, and top margins are equal. It is the main container and it may have one or many `.page` blocks. Page will have a frame of a specific color if its `style` attribute includes `border-color` property. Pages will reduce their width and padding relative to the browser viewport width.
 
@@ -51,3 +51,5 @@ Content can be structured using the `.grid`, which is based on the [16 column gr
   </div>
 </div>
 ```
+
+## Scripts
