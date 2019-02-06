@@ -64,6 +64,8 @@ Avatar is a SVG image loaded into an [`<object>`](https://developer.mozilla.org/
 
 #### Name, job, contacts
 
+`.name` and `.job` are pretty trivial, except maybe that `<h1>` is the largest heading on the page usually, but that's not the case with this website. `.contacts` is simply a list of links (may contain plain text as well) that consist of an icon and a caption. Icons can be obtained from [Font Awesome](https://fontawesome.com/icons).
+
 ``` html
 <h1 class="name">Volodymyr Kushnir</h1>
 <div class="job">full stack developer</div>
@@ -106,5 +108,7 @@ Avatar is a SVG image loaded into an [`<object>`](https://developer.mozilla.org/
   </li>
 </ul>
 ```
+
+#### Intro
 
 ## Scripts
