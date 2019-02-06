@@ -25,7 +25,7 @@ Content can be structured using the `.grid`, which is based on the [16 column gr
     <div class="thirteen wide column">
       <div class="stackable grid">
         <div class="sixteen wide column">
-          <!-- Name, contacts -->
+          <!-- Name, job, contacts -->
         </div>
         <div class="sixteen wide mobile only column">
           <div class="divider"></div>
