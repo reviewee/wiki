@@ -237,4 +237,4 @@ Sometimes an event that spawns across longer period of time might have its own e
 </li>
 ```
 
-## Scripts
+## `<script>`
