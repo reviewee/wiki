@@ -11,3 +11,8 @@
 &emsp;&emsp;&emsp;&emsp;[Timeline](Résumé#experience)  
 &emsp;&emsp;&emsp;[Languages, skills, character, likes, dislikes, wants, education](Résumé#experience)  
 &emsp;&emsp;[`<script>`](Résumé#script)  
+
+* 1
+  * 2
+    * 3
+      * 4
