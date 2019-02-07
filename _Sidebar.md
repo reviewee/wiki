@@ -12,7 +12,14 @@
 &emsp;&emsp;&emsp;[Languages, skills, character, likes, dislikes, wants, education](Résumé#experience)  
 &emsp;&emsp;[`<script>`](Résumé#script)  
 
-* 1
-  * 2
-    * 3
-      * Languages, skills, character, likes, dislikes, wants, education
+* [`<head>`](Résumé#head)
+* [`<body>`](Résumé#body)
+  * [Pages](Résumé#pages)
+  * [Content](Résumé#content)
+    * [Avatar](Résumé#avatar)
+    * [Name, job, contacts](Résumé#name-job-contacts)
+    * [Intro](Résumé#intro)
+    * [Experience](Résumé#experience)
+      * [Timeline](Résumé#experience)
+    * Languages, skills, character, likes, dislikes, wants, education
+  * [`<script>`](Résumé#script)
