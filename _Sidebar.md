@@ -10,4 +10,4 @@
 &emsp;&emsp;&emsp;[Experience](Résumé#experience)  
 &emsp;&emsp;&emsp;&emsp;[Timeline](Résumé#experience)  
 &emsp;&emsp;&emsp;[Languages, skills, character, likes, dislikes, wants, education](Résumé#experience)  
-&emsp;&emsp;[Script](Résumé#script)  
+&emsp;&emsp;[`<script>`](Résumé#script)  
