@@ -135,7 +135,7 @@ Experience is knowledge or skill in a particular job or activity, which you have
 
 ###### Event
 
-Events vary in their complexity depending on how much information is shown about them. They can be simple, detailed, collapsible, or even have their own events. Simple event is a list item with one or two paragraphs. Former is usually the date or period of the event, latter is a description. For example,
+Events vary in their complexity depending on how much information is shown about them (dates, places, job description, tasks performed, lessons learned, etc.). They can be simple, detailed, collapsible, or even have their own events. Simple event is a list item with one or two paragraphs. Former is usually the date or period of the event, latter is a description. For example,
 
 ``` html
 <li>
