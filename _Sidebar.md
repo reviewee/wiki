@@ -1,3 +1,3 @@
 [Home](Home)  
 [Résumé](Résumé)  
-├─[`<head>`](Résumé#head)
+├[`<head>`](Résumé#head)
