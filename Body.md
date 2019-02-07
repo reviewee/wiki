@@ -111,4 +111,112 @@ Avatar is a SVG image loaded into an [`<object>`](https://developer.mozilla.org/
 
 #### Intro
 
+#### Experience
+
+Page may contain as many timelines as it is necessary.
+
+``` html
+<h3>Experience</h3>
+<h6>Recent</h6>
+<!-- Timeline -->
+<h6>Back then</h6>
+<!-- Timeline -->
+```
+
+##### Timeline
+
+`.timeline` is a list used to group events. `.highlighted` timeline will have a subtle gray background.
+
+``` html
+<ul class="timeline highlighted">
+  <!-- Recent events -->
+</ul>
+```
+
+Timeline contains a list of events. Events vary in their complexity depending on how much information is available about them. They can be simple, detailed, collapsible, or even have their own events. Simple event is a list item with one or two paragraphs. Former is usually the date or period of the event, latter is a description. For example,
+
+``` html
+<li>
+  <p><em>10<sup>th</sup> September 2016</em></p>
+  <p><strong>Relocated</strong> to <strong><a href="https://www.google.com/maps/place/Lviv,+Lviv+Oblast,+Ukraine,+79000/@49.8327787,23.9421957,12z/data=!3m1!4b1!4m5!3m4!1s0x473add7c09109a57:0x4223c517012378e2!8m2!3d49.839683!4d24.029717" rel="external">Lviv</a></strong> <sup><em id="lviv-rent-months"></em></sup></p>
+</li>
+```
+
+That said, nothing stops developer from adding more paragraphs with more information on the event, and that would make a detailed event. It is better to use lists instead of extra paragraphs, as it would improve the readability. Here's an example of details listed in an unordered list (would draw a black circle ● before each list item): 
+
+``` html
+<li>
+  <p><em>1<sup>st</sup> October 2016 &ndash; 31<sup>st</sup> December 2016</em></p>
+  <p><strong>Full Stack Developer</strong> at <strong><a href="https://www.dutchstar.com/" rel="external">Dutchstar</a></strong></p>
+  <ul>
+    <li>built, tested, and deployed applications written with React + Redux and Phalcon + MySQL</li>
+  </ul>
+</li>
+```
+
+Sometimes there are events that aren't that important, but still are worthwhile to mention. To save space on the screen and keep readers' attention to important bits some events may be made collapsible (would draw a triangle ▶ before each item) with _closed_ state by default (set `checked` attribute on the `input` to change panels default state to _open_):
+
+``` html
+<li class="details">
+  <input type="checkbox" id="other">
+  <label for="other" class="summary">I also do some other things from time to time &#x1f389;</label>
+  <div>
+    <ul>
+      <li>occasionally I give lectures in <strong><a href="https://academy.binary-studio.com/" rel="external">Binary Studio Academy</a></strong></li>
+      <li>sometimes I'm being <em>mentored</em> by those whom I <em>mentor</em></li>
+      <li>I'm good at kitchen talks about pretty much anything</li>
+      <li>I can play video games with you so that we become a better team</li>
+    </ul>
+  </div>
+</li>
+```
+
+[`<details>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) tag _could_ be used to create collapsible panels, but it is buggy on iOS, hence a cross-platform alternative was built which uses `.details > input:checked ~ div` rule to toggle the panel on and off. Note that `for` attribute of the `label` must match the `id` attribute of the `input`.
+
+Sometimes an event that spawns across longer period of time might have its own events or projects. Of course, those could be listed in a detailed event manner, but it is probably better to use ordered lists instead (would draw a number before each item). `.inverted` ordered list would draw a white number in a black square before each item. Enclosed events may also be detailed and/or collapsible. It's possible to create as complex and detailed event as this:
+
+``` html
+<li>
+  <p><em>24<sup>th</sup> January 2017 – present</em></p>
+  <p><strong>Full Stack Developer</strong> at <strong><a href="https://binary-studio.com/" rel="external">Binary Studio</a></strong><br><sup><em>(here's my <a href="./posts/introduction-letter-to-binary-studio/" rel="external"><strong>introduction letter</strong></a>)</em></sup></p>
+  <ol class="inverted">
+    <li>
+      <p><strong>Full Stack Developer</strong> at <strong><a href="https://binary-studio.com/" rel="external">ScreenCloud</a></strong></p>
+      <ul>
+        <li class="details">
+          <input type="checkbox" id="project-2">
+          <label for="project-2" class="summary">built, tested, and deployed to Amazon Web Services applications written with Node.js, React, GraphQL, and PostgreSQL</label>
+          <div class="labels">
+            <a rel="external" class="label" href="https://github.com/apollographql/apollo-client">apollo-client</a>
+            <a rel="external" class="label" href="https://github.com/jaredpalmer/formik">formik</a>
+            <a rel="external" class="label" href="https://github.com/graphql/graphql-js">graphql</a>
+            <a rel="external" class="label" href="https://github.com/apollographql/graphql-tag">graphql-tag</a>
+            <a rel="external" class="label" href="https://github.com/ianstormtaylor/slate">slate</a>
+            <a rel="external" class="label" href="https://github.com/transloadit/uppy">uppy</a>
+            <a rel="external" class="label" href="https://github.com/jquense/yup">yup</a>
+            <a rel="external" class="label" href="https://github.com/storybooks/storybook">storybook</a>
+            <a rel="external" class="label" href="https://github.com/GoogleChrome/puppeteer">puppeteer</a>
+            <a rel="external" class="label" href="https://github.com/visionmedia/debug">debug</a>
+            <a rel="external" class="label" href="https://github.com/motdotla/dotenv">dotenv</a>
+            <a rel="external" class="label" href="https://github.com/expressjs/express">express</a>
+            <a rel="external" class="label" href="https://github.com/hapijs/joi">joi</a>
+            <a rel="external" class="label" href="https://github.com/expressjs/morgan">morgan</a>
+            <a rel="external" class="label" href="https://github.com/jaredhanson/passport">passport</a>
+            <a rel="external" class="label" href="https://github.com/brianc/node-postgres">pg</a>
+            <a rel="external" class="label" href="https://github.com/request/request">request</a>
+            <a rel="external" class="label" href="https://github.com/graphile/postgraphile">postgraphile</a>
+            <a rel="external" class="label" href="https://github.com/chaijs/chai">chai</a>
+            <a rel="external" class="label" href="https://github.com/mochajs/mocha">mocha</a>
+            <a rel="external" class="label" href="https://github.com/standard/standard">standard</a>
+            <a rel="external" class="label" href="https://github.com/standard/snazzy">snazzy</a>
+          </div>
+        </li>
+        <li>configured caching on CloudFront and Elasticache, WebSockets on Elastic Beanstalk, set up API Gateways and Lambdas, etc.</li>
+        <li>did code reviews, took care of documentation, planned sprints, participated in retrospectives and daily standups</li>
+      </ul>
+    </li>
+  </ol>
+</li>
+```
+
 ## Scripts
