@@ -46,7 +46,7 @@ Content can be structured using the `.grid`, which is based on the [16 column gr
       <!-- Experience -->
     </div>
     <div class="six wide column">
-      <!-- Skills, character, education -->
+      <!-- Languages, skills, character, likes, dislikes, wants, education -->
     </div>
   </div>
 </div>
@@ -118,9 +118,9 @@ Page may contain as many timelines as it is necessary.
 ``` html
 <h3>Experience</h3>
 <h6>Recent</h6>
-<!-- Timeline -->
+<!-- Timeline of recent events -->
 <h6>Back then</h6>
-<!-- Timeline -->
+<!-- Timeline of older events -->
 ```
 
 ##### Timeline
@@ -129,9 +129,11 @@ Page may contain as many timelines as it is necessary.
 
 ``` html
 <ul class="timeline highlighted">
-  <!-- Recent events -->
+  <!-- Events -->
 </ul>
 ```
+
+###### Event
 
 Timeline contains a list of events. Events vary in their complexity depending on how much information is available about them. They can be simple, detailed, collapsible, or even have their own events. Simple event is a list item with one or two paragraphs. Former is usually the date or period of the event, latter is a description. For example,
 
