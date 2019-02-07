@@ -111,6 +111,8 @@ Avatar is a SVG image loaded into an [`<object>`](https://developer.mozilla.org/
 
 #### Intro
 
+Introduction is a beginning section which states the purpose and goals of the résumé and gives insight into the author's motivations and personality. Here's an example of an introduction that starts with a friendly greeting (in this particular case an em dash is used to denote a direct speech, even though it is uncommon in English):
+
 ``` html
 <h2>Résumé</h2>
 <p>&mdash; Hello! I’m a skilled frontend developer<strong style="margin-left: 0.0625em;">*</strong> with 7 years of experience in UI/UX design, application development, and database modeling. I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.</p>
