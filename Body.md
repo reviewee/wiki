@@ -111,6 +111,12 @@ Avatar is a SVG image loaded into an [`<object>`](https://developer.mozilla.org/
 
 #### Intro
 
+``` html
+<h2>Résumé</h2>
+<p>&mdash; Hello! I’m a skilled frontend developer<strong style="margin-left: 0.0625em;">*</strong> with 7 years of experience in UI/UX design, application development, and database modeling. I strive to craft precise, responsive, fast, easy-to-use environments with both strong purpose and great looks.</p>
+<p style="opacity: 0.75;"><strong style="margin-right: 0.0625em;">*</strong>I feel like it's 40-60 by <a href="https://css-tricks.com/the-great-divide/" rel="external">The Great Divide</a> into JavaScript engineer and UX engineer</p>
+```
+
 #### Experience
 
 Experience is knowledge or skill in a particular job or activity, which you have gained because you have done that job or activity for a long time. Apart from that, even a smallest encounter could change your life forever, therefore it probably has to be mentioned as well, if you feel like it. So this encounters, jobs, and activities are essentially events — short (something that happened in a day) or long (something that took days, months or years to complete). They are organized in a timelines. There can be as many timelines as it is necessary.
