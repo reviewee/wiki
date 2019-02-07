@@ -1,8 +1,10 @@
 [Home](Home)  
 [Résumé](Résumé)  
-├[`<head>`](Résumé#head)  
-├[`<body>`](Résumé#body)  
-&emsp;├[Pages](Résumé#pages)  
-&emsp;├[Content](Résumé#content)  
-&emsp;&emsp;├[Avatar](Résumé#avatar)  
-&emsp;&emsp;├[Name, job, contacts](Résumé#name-job-contacts)
+&emsp;[`<head>`](Résumé#head)  
+&emsp;[`<body>`](Résumé#body)  
+&emsp;&emsp;[Pages](Résumé#pages)  
+&emsp;&emsp;[Content](Résumé#content)  
+&emsp;&emsp;&emsp;[Avatar](Résumé#avatar)  
+&emsp;&emsp;&emsp;[Name, job, contacts](Résumé#name-job-contacts)
+
+├
