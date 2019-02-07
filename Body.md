@@ -113,7 +113,7 @@ Avatar is a SVG image loaded into an [`<object>`](https://developer.mozilla.org/
 
 #### Experience
 
-Experience is knowledge or skill in a particular job or activity, which you have gained because you have done that job or activity for a long time. Apart of that, even a smallest encounter could change your life forever, therefore it has to be mentioned as well. So this encounters, jobs, and activities are essentially events — short (something that happened in a day) or long (something that took days, months or years to complete). They are organized in a timelines. There can be as many timelines as it is necessary.
+Experience is knowledge or skill in a particular job or activity, which you have gained because you have done that job or activity for a long time. Apart from that, even a smallest encounter could change your life forever, therefore it has to be mentioned as well. So this encounters, jobs, and activities are essentially events — short (something that happened in a day) or long (something that took days, months or years to complete). They are organized in a timelines. There can be as many timelines as it is necessary.
 
 ``` html
 <h3>Experience</h3>
