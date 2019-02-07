@@ -7,14 +7,11 @@
 &emsp;&emsp;&emsp;[Avatar](Résumé#avatar)  
 &emsp;&emsp;&emsp;[Name, job, contacts](Résumé#name-job-contacts)
 
-├
-┃
-┣
 [Home](Home)  
 [Résumé](Résumé)  
-┣[`<head>`](Résumé#head)  
-┣[`<body>`](Résumé#body)  
-┃┣[Pages](Résumé#pages)  
-┃┣[Content](Résumé#content)  
-┃&emsp;┣[Avatar](Résumé#avatar)  
-┃&emsp;┣[Name, job, contacts](Résumé#name-job-contacts)
+├[`<head>`](Résumé#head)  
+├[`<body>`](Résumé#body)  
+│├[Pages](Résumé#pages)  
+│├[Content](Résumé#content)  
+│&emsp;├[Avatar](Résumé#avatar)  
+│&emsp;├[Name, job, contacts](Résumé#name-job-contacts)
