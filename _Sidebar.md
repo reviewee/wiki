@@ -1,4 +1,4 @@
 * [this](https://github.com/volodymyr-kushnir/volodymyrkushnir.com/wiki/Résumé#head)
 * [[Home]]
-* [[Résumé#head]]
+* [`<head>`](Résumé#head)
 * sidebar
