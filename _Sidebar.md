@@ -15,4 +15,4 @@
 * 1
   * 2
     * 3
-      * 4
+      * Languages, skills, character, likes, dislikes, wants, education
