@@ -54,7 +54,13 @@ Content can be structured using the `.grid`, which is based on the [16 column gr
       <!-- Experience -->
     </div>
     <div class="six wide column">
-      <!-- Languages, skills, character, likes, dislikes, wants, education -->
+      <!-- Languages -->
+      <!-- Skills -->
+      <!-- Character -->
+      <!-- Likes -->
+      <!-- Dislikes -->
+      <!-- Wants -->
+      <!-- Education -->
     </div>
   </div>
 </div>
@@ -236,5 +242,19 @@ Sometimes an event that spawns across longer period of time might have its own e
   </ol>
 </li>
 ```
+
+#### Languages
+
+#### Skills
+
+#### Character
+
+#### Likes
+
+#### Dislikes
+
+#### Wants
+
+#### Education
 
 ## `<script>`
