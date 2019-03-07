@@ -149,10 +149,10 @@ Experience is knowledge or skill in a particular job or activity, which you have
 
 ##### Timeline
 
-`.timeline` is a list used to group events. `.highlighted` timeline will have a subtle gray background.
+`.timeline` is a list used to group events.
 
 ``` html
-<ul class="timeline highlighted">
+<ul class="timeline">
   <!-- Events -->
 </ul>
 ```
@@ -199,10 +199,10 @@ Sometimes there are events that aren't that important, but still are worthwhile 
 
 [`<details>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) tag _could_ be used to create collapsible panels, but it is buggy on iOS, hence a cross-platform alternative was built which uses `.details > input:checked ~ div` rule to toggle the panel on and off. Note that `for` attribute of the `label` must match the `id` attribute of the `input`.
 
-Sometimes an event that spawns across longer period of time might have its own events or projects. Of course, those could be listed in a detailed event manner, but it is probably better to use ordered lists instead (would draw a number before each item). `.inverted` ordered list would draw a white number in a black square before each item. Enclosed events may also be detailed and/or collapsible. It's possible to create as complex and detailed event as this:
+Sometimes an event that spawns across longer period of time might have its own events or projects. Of course, those could be listed in a detailed event manner, but it is probably better to use ordered lists instead (would draw a number before each item). `.inverted` ordered list would draw a white number in a black square before each item. Enclosed events may also be detailed and/or collapsible. `.highlighted` event will have a subtle gray background. It's possible to create as complex and detailed event as this:
 
 ``` html
-<li>
+<li class="highlighted">
   <p><em>24<sup>th</sup> January 2017 – present</em></p>
   <p><strong>Full Stack Developer</strong> at <strong><a href="https://binary-studio.com/" rel="external">Binary Studio</a></strong><br><sup><em>(here's my <a href="./posts/introduction-letter-to-binary-studio/" rel="external"><strong>introduction letter</strong></a>)</em></sup></p>
   <ol class="inverted">
