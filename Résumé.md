@@ -301,7 +301,47 @@ Sometimes an event that spawns across longer period of time might have its own e
   <h3>Wants&#x1f97a;</h3>
   <p class="tags small bulleted"><span class="tag">TO BE FIT AND HEALTHY</span><span class="tag">TO OWN MY SCHEDULE</span><span class="tag">TO READ MORE</span><span class="tag">TO OPEN A CAFÉ</span><span class="tag">TO BE BRAVE</span><span class="tag">TO BECOME A SUPERHERO</span><span class="tag">TO LISTEN AND LEARN</span></p>
 </section>
+```
 
 #### Education
+
+``` html
+<section>
+  <h3>Education</h3>
+  <ul class="timeline">
+    <li>
+      <div><em>Every day</em></div>
+      <p class="tags bulleted">
+        <span class="tag"><a href="https://frontendfront.com/" rel="external"><strong>Front-End Front</strong></a></span><span class="tag"><a href="https://dribbble.com/" rel="external"><strong>Dribbble</strong></a></span><span class="tag"><a href="https://goodui.org/" rel="external"><strong>GoodUI</strong></a></span><span class="tag"><a href="https://egghead.io/" rel="external"><strong>egghead.io</strong></a></span><span class="tag"><a href="https://theverge.com/" rel="external"><strong>The Verge</strong></a></span><span class="tag"><a href="https://uncrate.com/" rel="external"><strong>Uncrate</strong></a></span>
+      </p>
+    </li>
+    <li>
+      <div><em>December 2005 &ndash; April 2006</em></div>
+      <div><strong>Certificates of CCNA Course Completion</strong> at <a href="https://www.netacad.com/" rel="external"><strong>Cisco Networking Academy Program</strong></a></div>
+    </li>
+    <li>
+      <div><em>1<sup>st</sup> September 2003 &ndash; 30<sup>th</sup> June 2008</em></div>
+      <div><strong>Bachelor's degree</strong> in <strong>computer science</strong> at <a href="http://tntu.edu.ua//?p=en/home" rel="external"><strong>Ternopil National Technical University</strong></a></div>
+    </li>
+    <li>
+      <div><em>1<sup>st</sup> October 1995 &ndash; 23<sup>rd</sup> May 1999</em></div>
+      <div><strong>Certificate of graduation</strong> at <strong>Ternopil Art School for Children</strong></div>
+    </li>
+    <li>
+      <div><em>1<sup>st</sup> September 1993 &ndash; 21<sup>st</sup> June 2003</em></div>
+      <div><strong>Certificate of graduation</strong> at <strong>№20 Middle School of General Education</strong></div>
+    </li>
+  </ul>
+</section>
+```
+
+#### Articles
+
+``` html
+<section>
+  <h3>Articles</h3>
+  <p>None published <sup><em>yet</em></sup></p>
+</section>
+```
 
 ## `<script>`
