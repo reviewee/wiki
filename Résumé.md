@@ -247,15 +247,60 @@ Sometimes an event that spawns across longer period of time might have its own e
 
 #### Languages
 
+``` html
+<section>
+  <h3>Languages</h3>
+  <p class="tags small"><a href="/uk-ua" hreflang="uk" rel="alternate" class="language" lang="uk">&#x1f1fa;&#x1f1e6; <span>УКРАЇНСЬКА</span></a> <a href="/ru-ru" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa; <span>РУССКИЙ</span></a> <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
+</section>
+```
+
 #### Skills
+
+``` html
+<section>
+  <h3>Skills</h3>
+  <p class="tags small">HTML CSS JS PHP BOILERPLATE BOOTSTRAP <span class="nowrap">SEMANTIC UI</span> LESS SASS JQUERY ANGULARJS REACT REDUX LODASH GRUNT GULP BOWER WEBPACK NODEJS NPM <span class="nowrap">MICROSOFT OFFICE</span> PHOTOSHOP ILLUSTRATOR DELPHI VB VBA VBSCRIPT LINUX WINDOWS MACOS MYSQL POSTGRESQL MICROSOFT SQL DB2 CCNA ITIL</p>
+</section>
+```
 
 #### Character
 
+``` html
+<section>
+  <h3>Character</h3>
+  <p class="tags small">EXPLORER STRAIGHTFORWARD <a href="https://www.16personalities.com/entp-personality" rel="external">DEBATER</a> DEVOTED PEDANTIC AGNOSTIC CONTENTIOUS PROCRASTINATOR RELEVANT EMPATHETIC STORYTELLER CONFIDENT CONSISTENT CHALLENGING</p>
+</section>
+```
+
 #### Likes
+
+``` html
+<section>
+  <h3>Likes&#x1f603;</h3>
+  <p class="tags small">HUMOUR PATIENCE DOGS MOVIES AAPL DEMOCRACY <span class="nowrap">FC BARCELONA</span> JÄGERMEISTER LVIV FRISBEE <button id="midnightblue" class="color midnightblue">MIDNIGHT BLUE</button> ELECTROPOP CUCINA ITALIANA ‘80S SELF-EDUCATION <button id="meh"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M576 256c0 100.586-53.229 189.576-134.123 239.04-7.532 4.606-17.385 2.241-21.997-5.304-4.609-7.539-2.235-17.388 5.304-21.997C496.549 424.101 544 345.467 544 256c0-89.468-47.452-168.101-118.816-211.739-7.539-4.609-9.913-14.458-5.304-21.997 4.608-7.539 14.456-9.914 21.997-5.304C522.77 66.424 576 155.413 576 256zm-96 0c0-66.099-34.976-124.572-88.133-157.079-7.538-4.611-17.388-2.235-21.997 5.302-4.61 7.539-2.236 17.388 5.302 21.998C418.902 152.963 448 201.134 448 256c0 54.872-29.103 103.04-72.828 129.779-7.538 4.61-9.912 14.459-5.302 21.998 4.611 7.541 14.462 9.911 21.997 5.302C445.024 380.572 480 322.099 480 256zm-138.14-75.117c-7.538-4.615-17.388-2.239-21.998 5.297-4.612 7.537-2.241 17.387 5.297 21.998C341.966 218.462 352 236.34 352 256s-10.034 37.538-26.841 47.822c-7.538 4.611-9.909 14.461-5.297 21.998 4.611 7.538 14.463 9.909 21.998 5.297C368.247 314.972 384 286.891 384 256s-15.753-58.972-42.14-75.117zM256 88.017v335.964c0 21.436-25.942 31.999-40.971 16.971L126.059 352H24c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h102.059l88.971-88.954C230.037 56.038 256 66.551 256 88.017zm-32 19.311l-77.659 77.644A24.001 24.001 0 0 1 129.372 192H32v128h97.372a24.001 24.001 0 0 1 16.969 7.028L224 404.67V107.328z"/></svg> MEH
+    <audio preload="none">
+      <source src="./assets/sounds/meh.mp3" type="audio/mpeg">
+      </audio>
+    </button> <span class="nowrap">ATTENTION TO DETAILS</span> GRAMMAR SPELLCHECK SEMANTICS MINI-SERIES <span class="nowrap">RYAN GOSLING</span> <span class="nowrap">EMMA STONE</span> ​<span class="nowrap">CURAPROX 5460</span></p>
+</section>
+```
 
 #### Dislikes
 
+``` html
+<section>
+  <h3>Dislikes&#x1f61e;</h3>
+  <p class="tags small"><span class="nowrap">OWN BAD HABITS</span> POLITICS RACISM ASS-KISSERS VODKA INCOMPETENCE ARROGANCE ENVY GOLF <button id="chartreuse" class="color chartreuse">CHARTREUSE</button> INSECTS METRO PREJUDICE REALITY-SHOWS JŪRMALA</p>
+</section>
+```
+
 #### Wants
+
+``` html
+<section>
+  <h3>Wants&#x1f97a;</h3>
+  <p class="tags small bulleted"><span class="tag">TO BE FIT AND HEALTHY</span><span class="tag">TO OWN MY SCHEDULE</span><span class="tag">TO READ MORE</span><span class="tag">TO OPEN A CAFÉ</span><span class="tag">TO BE BRAVE</span><span class="tag">TO BECOME A SUPERHERO</span><span class="tag">TO LISTEN AND LEARN</span></p>
+</section>
 
 #### Education
 
