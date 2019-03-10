@@ -150,7 +150,7 @@ Experience is knowledge or skill in a particular job or activity, which you have
 
 ##### Timeline
 
-`.timeline` is a list used to group events.
+`.timeline` is a list that groups events together.
 
 ``` html
 <ul class="timeline">
