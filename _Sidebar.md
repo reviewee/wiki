@@ -2,6 +2,7 @@
 [Résumé](Résumé)  
 &emsp;[`<head>`](Résumé#head)  
 &emsp;[`<body>`](Résumé#body)  
+&emsp;&emsp;[`<dialog>`](Résumé#dialog)  
 &emsp;&emsp;[`<header>`](Résumé#header)  
 &emsp;&emsp;[`<main>`](Résumé#main)  
 &emsp;&emsp;&emsp;[Content](Résumé#content)  
