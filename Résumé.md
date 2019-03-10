@@ -1,5 +1,5 @@
 This document explains how HTML, CSS, and a bit of JavaScript were used to create a web page with a résumé in it. Keep in mind that most technical decisions were made to get a 100 points in [**Lighthouse**](https://developers.google.com/web/tools/lighthouse/)'s Performance, Progressive Web App, Accessibility, Best Practices, and SEO audits. Hence, as much as possible is inlined, everything else is cached by both browser itself (via a service worker) and GitHub Pages CDN (even though `max-age` there is only 10 minutes), some elements have attributes that aren't commonly used (like ARIA-labels, sadly), and the whole document tries to be _very_ semantic (e.g. `<h1>` element would be _the most important one_, not _the biggest one_).
- Okay, go — **index.html** is allowed to have one `<head>` element, followed by one `<body>` element, right?
+ Okay, go — start with **index.html**. It's allowed to have one `<head>` element, followed by one `<body>` element, right?
 
 # `<head>`
 
