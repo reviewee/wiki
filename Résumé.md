@@ -6,6 +6,14 @@ This section explains the code that goes into the `<head>` tag.
 
 `<body>` consists of `<dialog>`, `<header>`, `<main>`, `<footer>`, and `<script>`. **Only `<main>` tag is required**, as it renders the actual résumé, whereas everything else is optional and may or may not be included on the page depending on the developer's choice, e.g. [**volodymyrkushnir.com**](https://volodymyrkushnir.com) uses `<dialog>` for slideshow, includes credits in the `<header>`, uses `<footer>` to explain the purpose of the website, and makes the résumé interactive by running JavaScript from the `<script>` tag.
 
+``` html
+  <!-- <dialog> -->
+  <!-- <header> -->
+  <!-- <main> -->
+  <!-- <footer> -->
+  <!-- <script> -->
+```
+
 ## `<dialog>`
 
 ## `<header>`
@@ -147,9 +155,9 @@ Experience is knowledge or skill in a particular job or activity, which you have
 ``` html
 <h3>Experience</h3>
 <h6>Recent</h6>
-<!-- Timeline of recent events -->
+<!-- Timeline (recent events) -->
 <h6>Back then</h6>
-<!-- Timeline of older events -->
+<!-- Timeline (older events) -->
 ```
 
 ##### Timeline
