@@ -2,6 +2,7 @@
 [Résumé](Résumé)  
 &emsp;[`<head>`](Résumé#head)  
 &emsp;[`<body>`](Résumé#body)  
+&emsp;&emsp;[`<header>`](Résumé#header)  
 &emsp;&emsp;[`<main>`](Résumé#main)  
 &emsp;&emsp;&emsp;[Content](Résumé#content)  
 &emsp;&emsp;&emsp;&emsp;[Avatar](Résumé#avatar)  
@@ -17,4 +18,5 @@
 &emsp;&emsp;&emsp;&emsp;[Wants](Résumé#wants)  
 &emsp;&emsp;&emsp;&emsp;[Education](Résumé#education)  
 &emsp;&emsp;&emsp;&emsp;[Articles](Résumé#articles)  
+&emsp;&emsp;[`<footer>`](Résumé#footer)  
 &emsp;&emsp;[`<script>`](Résumé#script)  
