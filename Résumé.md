@@ -267,7 +267,7 @@ Sometimes an event that spawns across longer period of time might have its own e
 
 #### Languages
 
-This block can use `.small.tags` to list languages one speaks either as `<a>` link or a simple `<span>`, depending whether the translation of the résumé is available or not. It's important to set `hreflang`, `lang`, and `rel` attributes to make it easier for the screen readers.
+This block can use `.small.tags` to list spoken languages either as an `<a>` link or a simple `<span>`, depending on whether the translation of the résumé is available or not. It's important to set `hreflang`, `lang`, and `rel` attributes to make it easier for the screen readers. Emoji flags would be useful as well. `.language` helps to set proper text decoration (emoji won't be underlined on hover, just the text).
 
 ``` html
 <section>
