@@ -4,7 +4,9 @@ This document explains how HTML, CSS, and a bit of JavaScript were used to creat
 # `<head>`
 
 It includes `<meta>` and `<link>` tags that can be better understood by looking at the source of the webpage and using an excellent [**HEAD**](https://github.com/joshbuchea/HEAD) for reference.
+
 ⚠️ Pay attention to the `<base>` tag, because external resources will be fetched relatively to the path defined in the `<base>` tag, even if the website is being served from the local development machine.
+
 ⚠️ **base.css** can be included on any webpage with `<link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">` and it's okay for development, but it'd be better to copy the file and host it yourself before publishing the site to production, simply because backwards compatibility is not guaranteed and next versions may potentially break something.
 
 # `<body>`
