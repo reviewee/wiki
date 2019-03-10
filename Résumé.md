@@ -267,6 +267,8 @@ Sometimes an event that spawns across longer period of time might have its own e
 
 #### Languages
 
+This block can use `.small.tags` to list languages one speaks either as `<a>` link or a simple `<span>`, depending whether the translation of the résumé is available or not. It's important to set `hreflang`, `lang`, and `rel` attributes to make it easier for the screen readers.
+
 ``` html
 <section>
   <h3>Languages</h3>
