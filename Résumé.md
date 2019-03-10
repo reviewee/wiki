@@ -212,7 +212,7 @@ Sometimes there are events that aren't that important, but still are worthwhile 
 
 [`<details>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) tag _could_ be used to create collapsible panels, but it is buggy on iOS, hence a cross-platform alternative was built which uses `.details > input:checked ~ div` rule to toggle the panel on and off. Note that `for` attribute of the `label` must match the `id` attribute of the `input`.
 
-Sometimes an event that spawns across longer period of time might have its own events or projects. Of course, those could be listed in a detailed event manner, but it is probably better to use ordered lists instead (would draw a number before each item). `.inverted` ordered list would draw a white number in a black square before each item. Enclosed events may also be detailed and/or collapsible. `.highlighted` event will have a subtle gray background. It's possible to create as complex and detailed event as this:
+Sometimes an event that spawns across longer period of time might have its own events or projects. Of course, those could be listed in a detailed event manner, but it is probably better to use ordered lists instead (would draw a number **1...X** before each item). `.inverted` ordered list would draw a white number in a black square before each item. Enclosed events may also be detailed and/or collapsible. `.highlighted` event will have a subtle gray background. It's possible to create as complex and detailed event as this:
 
 ``` html
 <li class="highlighted">
