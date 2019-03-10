@@ -4,7 +4,9 @@ This section explains the code that goes into the `<head>` tag.
 
 # `<body>`
 
-This section explains the code that goes into the `<body>` tag.
+`<body>` consists of `<dialog>`, `<header>`, `<main>`, `<footer>`, and `<script>`. **Only `<main>` tag is required**, as it renders the actual résumé, whereas everything else is optional and may or may not be included on the page depending on the developer's choice, e.g. [**volodymyrkushnir.com**](https://volodymyrkushnir.com) uses `<dialog>` for slideshow, includes credits in the `<header>`, uses `<footer>` to explain the purpose of the website, and makes the résumé interactive by running JavaScript from the `<script>` tag.
+
+## `<dialog>`
 
 ## `<header>`
 
