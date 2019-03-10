@@ -2,5 +2,5 @@ The reason why would I create a repository on GitHub and keep website's source c
 
 And then I figured that maybe somebody else (especially aspiring developers) would like to know how to build something similar, so I'd like to encourage them to use parts of my website to build theirs faster and then focus on things that matter, i.e. what makes them different in terms of both content and UI/UX. That's why I'm putting together a wiki that'll explain how this was built and how to re-use some parts. I've decided against creating a framework that people could just "plug and play", because it would be harder for me to maintain and it would also defeat the purpose (i.e. to learn things).
 
-Well, without further ado, [**Résumé**]()** is what you want**.
+Well, without further ado, [**Résumé**](Résumé) **is what you want**.
 
