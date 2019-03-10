@@ -327,6 +327,8 @@ This block can use `.small.tags` to list spoken languages either as an `<a>` lin
 
 #### Education
 
+This block lists all trainings and courses (completed and incomplete, in schools or universities and online, etc.), as well as favorite educational resources, blogs, and subscriptions. It is a combination of a `.timeline` and a `.bulleted.tags`.
+
 ``` html
 <section>
   <h3>Education</h3>
