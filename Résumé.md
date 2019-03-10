@@ -1,10 +1,13 @@
+This document explains how HTML, CSS, and a bit of JavaScript were used to create a web page with a résumé in it. Keep in mind that most technical decisions were made to get a 100 points in [**Lighthouse**](https://developers.google.com/web/tools/lighthouse/)'s Performance, Progressive Web App, Accessibility, Best Practices, and SEO audits. Hence, as much as possible is inlined, everything else is cached by both browser itself (via a service worker) and GitHub Pages CDN (even though `max-age` there is only 10 minutes), some elements have attributes that aren't commonly used (like ARIA-labels, sadly), and the whole document tries to be _very_ semantic (e.g. `<h1>` element would be _the most important one_, not _the biggest one_).
+ Okay, go — **index.html** is allowed to have one `<head>` element, followed by one `<body>` element, right?
+
 # `<head>`
 
 This section explains the code that goes into the `<head>` tag.
 
 # `<body>`
 
-`<body>` consists of `<dialog>`, `<header>`, `<main>`, `<footer>`, and `<script>`. **Only `<main>` tag is required**, as it renders the actual résumé, whereas everything else is optional and may or may not be included on the page depending on the developer's choice, e.g. [**volodymyrkushnir.com**](https://volodymyrkushnir.com) uses `<dialog>` for slideshow, includes credits in the `<header>`, uses `<footer>` to explain the purpose of the website, and makes the résumé interactive by running JavaScript from the `<script>` tag.
+In this particular case `<body>` consists of `<dialog>`, `<header>`, `<main>`, `<footer>`, and `<script>`. **Only `<main>` tag is required**, as it renders the actual résumé, whereas everything else is optional and may or may not be included on the page depending on the developer's choice, e.g. [**volodymyrkushnir.com**](https://volodymyrkushnir.com) uses `<dialog>` for slideshow, includes credits in the `<header>`, uses `<footer>` to explain the purpose of the website, and makes the résumé interactive by running JavaScript from the `<script>` tag.
 
 ``` html
   <!-- <dialog> -->
