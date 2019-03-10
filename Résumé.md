@@ -6,7 +6,9 @@ This section explains the code that goes into the `<head>` tag.
 
 This section explains the code that goes into the `<body>` tag.
 
-## Main
+## `<header>`
+
+## `<main>`
 
 It all starts with the `main` container which wraps the `article` block that is positioned in the center of the screen so that left, right, and top margins are equal. It may have one or many `.page` blocks. Page will have a frame of a specific color if its `style` attribute includes `border-color` property. Pages will reduce their width and padding relative to the browser viewport width.
 
@@ -344,5 +346,7 @@ Sometimes an event that spawns across longer period of time might have its own e
   <p>None published <sup><em>yet</em></sup></p>
 </section>
 ```
+
+## `<footer>`
 
 ## `<script>`
